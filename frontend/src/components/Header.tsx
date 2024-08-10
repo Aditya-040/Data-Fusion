@@ -39,7 +39,7 @@ const router = useRouter();
                         <button className='text-white font-bold ml-2' onClick={handleSignOut}>Logout</button>
                     </div>
                 ) : (
-                    router.push('/login')
+                    <button className='text-white font-bold' onClick={googleSignIn}>Login</button>
                 )}
             </div>
         </nav>
